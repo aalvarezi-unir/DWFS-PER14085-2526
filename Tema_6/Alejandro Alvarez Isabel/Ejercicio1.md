@@ -1,4 +1,7 @@
 
+# Ejercicio 1 : Calculadora
+
+
 | Método HTTP | URI                 | Query Params  | Cuerpo de la Petición      | Cuerpo de la Respuesta                                                                        | Códigos de Respuesta                                    |
 |-------------|---------------------|---------------|----------------------------|-----------------------------------------------------------------------------------------------|---------------------------------------------------------|
 | POST        | /calculations/sum   | N/A           | {"values": [2, 2, 2]}      | {"id": 1, "result": 6, "op": "sum"}                                                           | 200 OK<br/>400 Bad Request   |

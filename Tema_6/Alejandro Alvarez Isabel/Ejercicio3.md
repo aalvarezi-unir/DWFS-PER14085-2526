@@ -1,3 +1,5 @@
+# Ejercicio 3: Restaurante
+
 | Método HTTP | URI                 | Query Params  | Cuerpo de la Petición                              | Cuerpo de la Respuesta                                     | Códigos de Respuesta                                    |
 |-------------|---------------------|---------------|----------------------------------------------------|------------------------------------------------------------|---------------------------------------------------------|
 | GET         | /restaurants | location, cuisine | N/A | {"restaurants": [{"id": 1, "name": "Pizzeria"}]}           | 200 OK | 

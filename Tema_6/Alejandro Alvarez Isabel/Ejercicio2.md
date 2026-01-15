@@ -1,3 +1,5 @@
+# Ejercicio 2 : Reservas de butacas
+
 | Método HTTP | URI                 | Query Params  | Cuerpo de la Petición                              | Cuerpo de la Respuesta                    | Códigos de Respuesta                                    |
 |-------------|---------------------|---------------|----------------------------------------------------|-------------------------------------------|---------------------------------------------------------|
 | POST | /movies | N/A | {"title": "Inception", "duration": 148}            | {"movieId": 1, "title": "Inception"}      | 201 Created <br> 400 Bad Request   |
